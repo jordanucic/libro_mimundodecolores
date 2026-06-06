@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Mundo de Colores Imperfectos - El Libro</title>
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+EN+Joined:wght@100..400&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <style>
+ <style>
         /* --- VARIABLES DE COLOR (Cálido y Análogo) --- */
         :root {
             --bg-calido: #FFF8F5;       /* Fondo suave */
@@ -264,21 +264,22 @@
 </head>
 <body>
 
-    <main class="container hero">
+<main class="container hero">
         
-        <div class="hero-left">
+    
+<div class="hero-left">
             <h1>Mi mundo de colores imperfectos</h1>
             <div class="hero-imagen-wrapper">
                 <img src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=800&q=80" alt="Concepto abstracto de colores">
             </div>
         </div>
 
-        <div class="hero-right">
+<div class="hero-right">
             <p class="descripcion">
                 Este libro es un viaje introspectivo a través del arte visual y el feminismo interseccional. Exploramos las narrativas de mujeres y niñas, rompiendo moldes mediante la imperfección y transformando el caos cromático en discursos con un verdadero significado social.
             </p>
 
-            <div class="grid-botones">
+<div class="grid-botones">
                 <a href="#sinopsis" class="btn-interactivo">Sinopsis</a>
                 <a href="#proceso" class="btn-interactivo">Proceso Creativo</a>
                 <a href="#diseno" class="btn-interactivo">Diseño y Empaque</a>
@@ -288,9 +289,9 @@
             </div>
         </div>
 
-    </main>
+</main>
 
-    <section id="sinopsis" class="sinopsis-section">
+<section id="sinopsis" class="sinopsis-section">
         <div class="container">
             <h2>Sinopsis</h2>
             <p>
@@ -299,7 +300,7 @@
         </div>
     </section>
 
-    <section id="proceso" class="container seccion-info">
+<section id="proceso" class="container seccion-info">
         <h2>Proceso Creativo</h2>
         <div class="grid-3-columnas">
             <div class="tarjeta-proceso">
@@ -317,7 +318,7 @@
         </div>
     </section>
 
-    <section id="diseno" class="container seccion-info">
+<section id="diseno" class="container seccion-info">
         <h2>Diseño & Empaque</h2>
         <div class="empaque-diseno">
             <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=600&q=80" alt="Diseño editorial del libro">
@@ -332,7 +333,7 @@
         </div>
     </section>
 
-    <section id="galeria" class="container seccion-info">
+<section id="galeria" class="container seccion-info">
         <h2>Fotografías del Libro</h2>
         <div class="galeria-fotos">
             <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=500&q=80" alt="Libro abierto">
@@ -341,17 +342,17 @@
         </div>
     </section>
 
-    <footer class="container">
+<footer class="container">
         <p>Sigue a la autora en sus redes sociales</p>
         
-        <div class="redes-sociales">
+<div class="redes-sociales">
             <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
             <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
             <a href="mailto:autora@email.com" aria-label="Correo"><i class="far fa-envelope"></i></a>
         </div>
 
-        <div class="creditos">
+<div class="creditos">
             &copy; 2026 Mi mundo de colores imperfectos. Todos los derechos reservados.
         </div>
     </footer>
